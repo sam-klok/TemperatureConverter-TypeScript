@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<title>Fahrenheit to Celcius Temperature Converter</title>
+<body>
+<p>This is HTML + TypeScript application</p>
+
+<h2>Temperature Converter</h2>
+<p>Type a value in the field to convert the value to Fahrenheit/Celsius:</p>
+
+<p>
+    <label>Fahrenheit</label>
+    <input id="inputFahrenheit" type="number" min="-459.66999999999996" placeholder="Fahrenheit" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+</p>
+
+<p>
+    <label>Celsius</label>
+    <input id="inputCelsius" type="number" min="-273.15" placeholder="Celsius" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">        
+</p>
+
+<script src="./js/TemperatureConverter.js"></script>
+
+</body>
+</html>
